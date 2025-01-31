@@ -1,0 +1,28 @@
+.admin-header {
+    background: #27ae60;;
+    color: #fcf8f8;
+    padding: 15px;
+    text-align: center;
+}
+
+.admin-header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.admin-header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout-btn {
+    background: rgb(247, 243, 243);
+    padding: 5px 10px;
+    border-radius: 5px;
+}

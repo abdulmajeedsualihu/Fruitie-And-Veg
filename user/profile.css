@@ -1,0 +1,152 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Profile Container */
+.profile-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Profile Heading */
+.profile-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Profile Form */
+.profile-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.profile-container label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+    align-self: flex-start;
+    margin-left: 20%;
+}
+
+.profile-container input,
+.profile-container textarea {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.profile-container textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Update Button */
+.profile-container button {
+    width: 65%;
+    padding: 12px;
+    background: #28a745;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.profile-container button:hover {
+    background: #218838;
+}
+
+/* Order History Table */
+.profile-container table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    text-align: left;
+    background: #fff;
+}
+
+.profile-container th, 
+.profile-container td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-container th {
+    background: #28a745;
+    color: white;
+    text-align: center;
+}
+
+.profile-container td {
+    font-size: 14px;
+    color: #555;
+}
+
+.profile-container tr:hover {
+    background: #f1f1f1;
+}
+
+/* Track Order Button */
+.profile-container .btn {
+    background: #007bff;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.profile-container .btn:hover {
+    background: #0056b3;
+}
+
+/* Logout Button */
+.profile-container .logout-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #dc3545;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.profile-container .logout-btn:hover {
+    background: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .profile-container {
+        width: 95%;
+        padding: 20px;
+    }
+    
+    .profile-container input, 
+    .profile-container textarea {
+        width: 90%;
+    }
+    
+    .profile-container button {
+        width: 90%;
+    }
+}
