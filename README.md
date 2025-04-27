@@ -14,4 +14,4 @@ start the server and start running the website
 if you're confused, you can call or chat me 🙃
 
 Let's make it a good one 
-I'm counting on y'all
+I'm counting on y'all.
